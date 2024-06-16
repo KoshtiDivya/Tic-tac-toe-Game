@@ -6,8 +6,11 @@ h1{
     color : #fff;
 }
 body{
-    background-color: #0d1321;
     text-align: center;
+    background-image: url("background.png");
+    background-size: cover ;
+    height : 50px;
+    width : 100%;
 }
 
 .container{
