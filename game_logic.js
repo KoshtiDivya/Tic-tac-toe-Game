@@ -29,6 +29,7 @@ const enableBoxes = () => {
     for(let box of boxes){
         box.disabled = false ;
         box.innerText ="";
+        box.style.backgroundColor="#f0ebd8";
     }
 }
 boxes.forEach((box) => {
@@ -37,9 +38,11 @@ boxes.forEach((box) => {
          if(turnO){
             box.innerText = "O";
             box.style.color="#3e5c76";
+            box.style.backgroundColor="pink";
             turnO = false;
          }else{
             box.innerText = "X";
+            box.style.backgroundColor="#bde0fe";
             turnO = true;
          }
          box.disabled = true;
