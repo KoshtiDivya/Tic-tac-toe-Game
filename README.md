@@ -1,5 +1,5 @@
 # Tic-tac-toe-Game
-It is a basic Tic-Tac-Toe Game using  HTML, CSS, and JavaScript
+It is a basic Tic-Tac-Toe Game using  HTML, CSS, and JavaScript.
 # feature 
-It's fun game
+It's fun game.
 
